@@ -89,6 +89,8 @@ let totalViews = prompt("Enter the total no of views of : ")
 let date = prompt("Enter the Date on which Video uploaded : ")
 let duration = prompt("Enter the total duration of the video : ")
 
+
+// The function with a arguments with alert messages 
 createCard(imgLink, title, channelName, totalViews, date, duration);
 createCard('https://i.ytimg.com/vi/9JaDBYPmiJ0/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLD2F1t93-iBW0-yJJptKjyJhXXFhA', 'hello welcome to sigma web development course #1', 'code with harry', '1000', '5', '12.23')
 createCard('https://i.ytimg.com/vi/9JaDBYPmiJ0/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLD2F1t93-iBW0-yJJptKjyJhXXFhA', 'hello welcome to sigma web development course #1', 'code with harry', '1000', '5', '12.23')
