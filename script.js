@@ -92,6 +92,8 @@ let duration = prompt("Enter the total duration of the video : ")
 
 // The function with a arguments with alert messages 
 createCard(imgLink, title, channelName, totalViews, date, duration);
+
+// The function call with the argument values 
 createCard('https://i.ytimg.com/vi/9JaDBYPmiJ0/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLD2F1t93-iBW0-yJJptKjyJhXXFhA', 'hello welcome to sigma web development course #1', 'code with harry', '1000', '5', '12.23')
 createCard('https://i.ytimg.com/vi/9JaDBYPmiJ0/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLD2F1t93-iBW0-yJJptKjyJhXXFhA', 'hello welcome to sigma web development course #1', 'code with harry', '1000', '5', '12.23')
 createCard('https://i.ytimg.com/vi/9JaDBYPmiJ0/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLD2F1t93-iBW0-yJJptKjyJhXXFhA', 'hello welcome to sigma web development course #1', 'code with harry', '1000', '5', '12.23')
