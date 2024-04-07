@@ -19,7 +19,7 @@ function createCard(thumbline = "https://i.ytimg.com/vi/NrhP53Divco/hqdefault.jp
     // created img of thumbline 
     const cardImg = document.createElement("img");
     cardImg.classList.add("card_image");
-    cardImg.setAttribute("src", `${thumbline}`); 
+    cardImg.setAttribute("src", `${thumbline}`);
     // !cardImg.setAttribute("src", 'https://i.ytimg.com/vi/9JaDBYPmiJ0/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLD2F1t93-iBW0-yJJptKjyJhXXFhA');
     cardImg.setAttribute("alt", 'Thumbnil Image');
     div1.appendChild(cardImg);
@@ -58,16 +58,16 @@ function createCard(thumbline = "https://i.ytimg.com/vi/NrhP53Divco/hqdefault.jp
     img2.setAttribute("src", 'dot.svg');
     img2.setAttribute("alt", 'Dot Image');
     // svg.appendChild(img1);
-    
-    
+
+
     // !const channelName = document.createTextNode('channelname');
     const channelName = document.createTextNode(`${cName}`);
     p1.appendChild(channelName);
     // !const viewCount = document.createTextNode("views");
-    const viewCount = document.createTextNode(`${views}`+ " views");
+    const viewCount = document.createTextNode(`${views}` + " views");
     p2.appendChild(viewCount);
     // !const time = document.createTextNode("time");
-    const time = document.createTextNode(`${monthsOld}`+" months ago");
+    const time = document.createTextNode(`${monthsOld}` + " months ago");
     p3.appendChild(time);
 
     div3.append(p1);
@@ -79,6 +79,8 @@ function createCard(thumbline = "https://i.ytimg.com/vi/NrhP53Divco/hqdefault.jp
     containerEl.appendChild(createDiv);
 }
 
+// if the alert messages irritates you then better to remove it and use default parameters or pass the required parameters to the function manually 
+
 alert("Sorry to disturb, This projects works as this only you have to give the input first then it will be reflected on the screen")
 let imgLink = prompt("Enter the thumnbline link : ");
 let title = prompt("Enter the title of the video : ")
@@ -87,7 +89,7 @@ let totalViews = prompt("Enter the total no of views of : ")
 let date = prompt("Enter the Date on which Video uploaded : ")
 let duration = prompt("Enter the total duration of the video : ")
 
-createCard(imgLink,title,channelName,totalViews,date,duration);
-createCard('https://i.ytimg.com/vi/9JaDBYPmiJ0/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLD2F1t93-iBW0-yJJptKjyJhXXFhA','hello welcome to sigma web development course #1','code with harry','1000','5','12.23')
-createCard('https://i.ytimg.com/vi/9JaDBYPmiJ0/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLD2F1t93-iBW0-yJJptKjyJhXXFhA','hello welcome to sigma web development course #1','code with harry','1000','5','12.23')
-createCard('https://i.ytimg.com/vi/9JaDBYPmiJ0/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLD2F1t93-iBW0-yJJptKjyJhXXFhA','hello welcome to sigma web development course #1','code with harry','1000','5','12.23')
+createCard(imgLink, title, channelName, totalViews, date, duration);
+createCard('https://i.ytimg.com/vi/9JaDBYPmiJ0/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLD2F1t93-iBW0-yJJptKjyJhXXFhA', 'hello welcome to sigma web development course #1', 'code with harry', '1000', '5', '12.23')
+createCard('https://i.ytimg.com/vi/9JaDBYPmiJ0/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLD2F1t93-iBW0-yJJptKjyJhXXFhA', 'hello welcome to sigma web development course #1', 'code with harry', '1000', '5', '12.23')
+createCard('https://i.ytimg.com/vi/9JaDBYPmiJ0/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLD2F1t93-iBW0-yJJptKjyJhXXFhA', 'hello welcome to sigma web development course #1', 'code with harry', '1000', '5', '12.23')
