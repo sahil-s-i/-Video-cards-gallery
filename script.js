@@ -59,7 +59,6 @@ function createCard(thumbline = "https://i.ytimg.com/vi/NrhP53Divco/hqdefault.jp
     img2.setAttribute("alt", 'Dot Image');
     // svg.appendChild(img1);
 
-
     // !const channelName = document.createTextNode('channelname');
     const channelName = document.createTextNode(`${cName}`);
     p1.appendChild(channelName);
