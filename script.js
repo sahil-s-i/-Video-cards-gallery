@@ -89,7 +89,6 @@ let totalViews = prompt("Enter the total no of views of : ")
 let date = prompt("Enter the Date on which Video uploaded : ")
 let duration = prompt("Enter the total duration of the video : ")
 
-
 // The function with a arguments with alert messages 
 createCard(imgLink, title, channelName, totalViews, date, duration);
 
