@@ -5,7 +5,6 @@ function createCard(thumbline = "https://i.ytimg.com/vi/NrhP53Divco/hqdefault.jp
     // created card div 
     const createDiv = document.createElement('div');
     createDiv.className = "card";
-
     // created 1st div of images and duration 
     const div1 = document.createElement('div');
     div1.setAttribute('class', 'cardImg cardDuration');
