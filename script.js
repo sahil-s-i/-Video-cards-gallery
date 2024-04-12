@@ -39,7 +39,6 @@ function createCard(thumbline = "https://i.ytimg.com/vi/NrhP53Divco/hqdefault.jp
     head.appendChild(cardTitle);
     div2.appendChild(head);
 
-    
     // creted a div of a views and channerl name etc
     const div3 = document.createElement('div');
     div3.classList.add("infoOfCard");
