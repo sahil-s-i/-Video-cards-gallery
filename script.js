@@ -79,7 +79,6 @@ function createCard(thumbline = "https://i.ytimg.com/vi/NrhP53Divco/hqdefault.jp
 }
 
 // if the alert messages irritates you then better to remove it and use default parameters or pass the required parameters to the function manually 
-
 alert("Sorry to disturb, This projects works as this only you have to give the input first then it will be reflected on the screen")
 let imgLink = prompt("Enter the thumnbline link : ");
 let title = prompt("Enter the title of the video : ")
