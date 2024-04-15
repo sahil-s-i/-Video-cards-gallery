@@ -1,7 +1,7 @@
 function createCard(thumbline = "https://i.ytimg.com/vi/NrhP53Divco/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAjU8-sxSfqBG8CSHNR0tkOJ42V7A", title = "Enter Your Video Title", cName = "Enter Your Channel Name", views = "Enter Total Number of Views", monthsOld = "Enter the Month", duration = "Enter Duration") {
     const containerEl = document.querySelector(".container");
     // console.log(containerEl);
-
+    
     // created card div 
     const createDiv = document.createElement('div');
     createDiv.className = "card";
@@ -24,7 +24,6 @@ function createCard(thumbline = "https://i.ytimg.com/vi/NrhP53Divco/hqdefault.jp
     cardImg.setAttribute("alt", 'Thumbnil Image');
     div1.appendChild(cardImg);
 
-    
     // created a timespan of the img 
     const timespan = document.createElement('span');
     const innerText = document.createTextNode(`${duration}`);
