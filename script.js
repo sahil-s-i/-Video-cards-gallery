@@ -14,7 +14,6 @@ function createCard(thumbline = "https://i.ytimg.com/vi/NrhP53Divco/hqdefault.jp
     div2.setAttribute('class', 'cardText viewsChannel');
     createDiv.appendChild(div1);
     createDiv.appendChild(div2);
-    
     console.log(createDiv);
 
     // created img of thumbline 
